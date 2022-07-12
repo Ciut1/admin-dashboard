@@ -1,0 +1,50 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+.container {
+    background-color: #67e8f9;
+    display: grid;
+    grid-template-areas: 
+    "sidebar header"
+    "sidebar content";
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.menu img {
+    width: 30px;
+    height: 30px;
+}
+
+.accessories img {
+    width: 30px;
+    height: 30px;
+}
+
+a {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.logo {
+    padding-top: 20px;
+}
+
+.menu {
+    padding: 20px 0px 20px 0px;
+}
+
+.accessories {
+    padding-bottom: 20px;
+}
