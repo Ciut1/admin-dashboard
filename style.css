@@ -7,11 +7,19 @@ body {
 }
 
 .container {
-    background-color: #67e8f9;
     display: grid;
     grid-template-areas: 
     "sidebar header"
-    "sidebar content";
+    "sidebar content"
+    "footer footer";
+}
+
+.sidebar {
+    background-color: #38bdf8;
+    width: 150px;
+    height: 550px;
+    padding-right: 50px;
+
 }
 
 .logo img {
@@ -47,4 +55,32 @@ a {
 
 .accessories {
     padding-bottom: 20px;
+}
+
+.header {
+    background-color: red;
+    width: 1150px;
+    height: 150px;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.header1 img {
+    width: 30px;
+    height: 30px;
+}
+
+.header2 {
+    background-color: yellow;
+    display: flex;
+}
+
+.header2 img {
+    width: 50px;
+    height: 50px;
 }
